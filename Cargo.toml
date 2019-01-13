@@ -1,0 +1,13 @@
+[package]
+name = "just-extension"
+version = "0.1.0"
+authors = ["Randy Schütt <rswhite4@googlemail.com>"]
+edition = "2018"
+
+[dependencies]
+just-core = { git = "https://github.com/just-cli/just-core" }
+walkdir = "2.2.7"
+url = "1.7.2"
+duct = "0.11"
+remove_dir_all = "0.5.1"
+log = "0.4"
